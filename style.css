@@ -6,6 +6,21 @@
 .product{
     display: flex;
 }
+.product-detail{
+    width: 582px;
+    height: 270px;
+}
 h1{
     font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+}
+.product-detail a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px 24px;
+
 }
