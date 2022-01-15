@@ -39,16 +39,17 @@ nav span{
 *************************** */
 .first-container{
     /* width: 1440px; */
+
 }
 .product{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 .product-detail{
     width: 582px;
     height: 270px;
-   /* padding-left: 120px; */
-   /* padding-top: 285px; */
+  
 }
 h1{
     
@@ -64,9 +65,10 @@ h1{
     padding: 10px 24px;
 
 }
-.product-detail img{
+.product img{
     width: 440px;
     height: 414px;
+    margin-left: 133px;
 }
 
 /* ************************
@@ -157,6 +159,61 @@ footer{
 .footer-insider{
     width: 262px;
     height: 139px;
- 
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
+
+/*****************************************
+            Starting responsive view
+******************************************/
+/*------------------ Mobile view ------------------- */
+
+@media only screen and (max-width:688px) {
+  
+  header{
+    display: flex;
+    
+    
+  }
+  header span{
+      display: none;
+  }
+  
+    .first-container{
+      
+  }
+    .product{
+        display: grid;
+        width: 100%;
+       grid-template-columns:repeat(1, 1fr);
+    }
+    
+    .items, .product{
+        width: 100%; 
+       grid-template-columns: repeat(1, 1fr);
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        align-items: center;
+        justify-items: center;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+}
+
+/* --------------------------tab view ----------------------- */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .items, .product{
+        width: 100%; 
+       grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        align-items: center;
+        justify-items: center;
+}
+
+
+
+   
