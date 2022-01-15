@@ -5,10 +5,13 @@
 /* ************************************************************** */
 .product{
     display: flex;
+    align-items: center;
 }
 .product-detail{
     width: 582px;
     height: 270px;
+   padding-left: 120px;
+   /* padding-top: 285px; */
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -23,4 +26,29 @@ h1{
     border-radius: 41px;
     padding: 10px 24px;
 
+}
+/* ************************
+Started design for items
+*************************** */
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item-detail{
+    width: 329px;
+    height: 476px;
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+}
+h3{
+    font-size: 28px;
+}
+.item-price{
+    font-size: 24px;
+}
+.fa-star, .fa-star-half-alt{
+    color: orange;
 }
