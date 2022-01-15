@@ -30,10 +30,16 @@ nav a{
     padding-right: 34px;
     font-size: 16px;
 }
+nav span{
+    margin-right: 250px;
+}
 
 /* ***************************
  CSS of first container 
 *************************** */
+.first-container{
+    /* width: 1440px; */
+}
 .product{
     display: flex;
     align-items: center;
@@ -67,10 +73,10 @@ h1{
 Started design for items
 *************************** */
 .second-container{
-    padding-left: 196px;
-    padding-right: 197px;
+    /* padding-left: 196px;
+    padding-right: 197px; */
     width: 1047px;
-    height: 1662px;
+    /* height: 1662px; */
 }
 
 h4{
@@ -120,8 +126,37 @@ h5 a{
     text-align: end;
     padding-right: 100px;
 }
+/*************************
+ decoration-see-more 
+**************************/
 h5{
-   
-    display: flex;
+     display: flex;
     justify-content: flex-end;
+    margin-right: 300px;
+}
+
+.decoration-see-more{
+    /* width: 1047px; */
+}
+/******************* 
+CSS of Footer 
+********************/
+
+#footer-heading{
+    color: #FFFFFF; 
+}
+footer{
+    text-align: center;
+    width: 1440px;
+    background-color: #0A0826;
+    height: 239px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-insider{
+    width: 262px;
+    height: 139px;
+ 
+    color: #FFFFFF;
 }
