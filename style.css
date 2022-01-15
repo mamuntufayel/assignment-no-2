@@ -161,6 +161,10 @@ footer{
     height: 139px;
   color: #FFFFFF;
 }
+.fa-facebook, .fa-twitter-square, .fa-instagram{
+    margin-right: 15px;
+}
+
 
 /*****************************************
             Starting responsive view
