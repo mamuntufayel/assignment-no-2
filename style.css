@@ -3,6 +3,30 @@
 ******************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=The+Nautigal&display=swap');
 /* ************************************************************** */
+
+/* **********************
+ CSS in header 
+************************ */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 34px;
+    font-size: 16px;
+}
+
+/* ***************************
+ CSS of first container 
+*************************** */
 .product{
     display: flex;
     align-items: center;
@@ -30,14 +54,29 @@ h1{
 /* ************************
 Started design for items
 *************************** */
+.second-container{
+    width: 1047px;
+    height: 1662px;
+}
 
+h4{
+   color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+   text-align: center;    
+}
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 }
 .item-detail{
     width: 329px;
     height: 476px;
+    padding: 15px 15px 0 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 }
 .thumbnail img{
     width: 300px;
@@ -51,4 +90,23 @@ h3{
 }
 .fa-star, .fa-star-half-alt{
     color: orange;
+}
+.last-para{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
+    height: 61px;
+    width: 196px;
+}
+h5 a{
+    color: #E02C6D;
+    text-decoration: none;
+    width: 99px;
+    height: 24px;
+    text-align: end;
+    padding-right: 100px;
+}
+h5{
+    display: flex;
+    justify-content: flex-end;
 }
